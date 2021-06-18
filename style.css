@@ -1,0 +1,151 @@
+*
+    {margin: 0;
+    padding: 0;}
+
+ul li
+    {list-style: none;}
+
+ul li a
+    {text-decoration: none;}
+
+body
+    {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    }
+
+header
+    {width: 1200px;
+    height: 116px;
+    font-family: 'Nanum Gothic';    
+    font-size: 16px;
+    background-color: white;
+    float: left;}
+
+header > img
+    {width: 185px;
+    height: 97px;
+    position: relative;
+    left: 35px;
+    top: 10px;}
+
+.list ul
+    {float: right;}
+
+.list ul li
+    {display: inline-block;
+    float:left;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 60px;
+    width: 80px;
+    text-align: center;
+    background-color: rgba(87, 87, 87, 0.322);
+    border: 1px solid rgba(0, 0, 0, 0.164);}
+
+.list ul li:first-child
+    {border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;}
+
+    .list ul li:last-child
+    {border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;}
+
+.list ul li a
+    {text-decoration: none;
+    color: #444;
+    font-weight: bold;}
+
+
+.list ul li :hover
+    {font-weight: bold;
+    color: red;}
+
+section#main_visual
+    {width: 1200px;
+    height: 470px;
+    background-image: url(images/bridge.jpg);
+    background-size:100%;
+    margin-bottom: 24px;    
+    float: left;}
+
+section#main_visual > h1 ,h2
+    {color: white;
+    text-transform: uppercase;
+    position: relative;
+    font-family: Noto Sans KR;}
+
+section#main_visual > h1
+    {font-size: 45px;
+    left: 809px;
+    top: 61px;}
+
+section#main_visual > h2
+    {font-size: 20px;
+    left: 809px;
+    top: 100px;
+    font-weight: 400;}
+
+section#content
+    {float: left;
+    margin-bottom: 25px;}
+
+.box1
+    {width: 388px;
+    height: 423px;
+    outline: 1px solid black;
+    float: left;
+    background-color: white;}
+
+.box1 h1 , p
+    {text-align: center;
+    margin-top: 5px;}
+
+.box1 h3
+    {text-align: center;
+    border: 1px solid black;
+    width: 150px;
+    padding: 5px;
+    position: relative;
+    left: 105px;
+    top: 6px;
+    border-radius: 20px;}
+
+.box1 h3:hover
+    {background-color: gray;
+    color: white;}
+
+.box2
+    {width: 388px;
+    height: 258px;
+    outline: 1px solid black;
+    float: left;
+    margin-left: 18px;
+    margin-right: 18px;}
+
+.box2 p
+    {text-align: center;}
+
+.box2 img
+    {width: 45%;
+    margin: 5px;
+    margin-top: 35px;}
+
+footer
+    {clear: both;
+    background-color: #7D7D7D;
+    color: #CBCBCB;
+    width: 1200px;
+    height: 140px;
+    text-align: center;
+}
+
+footer p
+    {position: relative;
+    top: 24px;
+    font-family: Nanum Gothic;
+    font-size: 14px;
+    line-height: 2.0em;}
